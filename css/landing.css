@@ -1,0 +1,116 @@
+body{
+    padding-left:5%;
+    background-color: #f7f7f7;
+}
+
+.header{
+    padding-bottom: 1.25rem;
+}
+
+button{
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: white;
+    background-color: #5bacc3;
+    border: none;
+    padding: 1.25rem;
+    margin:1.5em 0;
+    width: 180px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.nitro-coffee{
+    background-color: #fff0ed;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:1.5rem;
+}
+
+.nitro-coffee__img{
+    max-width: 100%;
+    height: auto;
+}
+
+.nitro-coffee__desc{
+    text-align: left;
+    padding: 0 5rem 0 0;
+
+}
+
+.nitro-coffee__block{
+    width: 50%;
+    margin: 1.2rem;
+}
+
+.products{
+    text-align: center;
+    padding:1rem;
+}
+
+.card{
+    display: inline-block;
+    background-color: white;
+    padding: 1.25rem;
+    margin: 2.2rem;
+    text-align: center;
+    box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    width:330px;
+    height: 440px;
+    box-sizing: border-box;
+    vertical-align:middle;
+    
+}
+
+.discount{
+    background-color: white; 
+    padding: 3.2rem 1.5rem; 
+    margin: 0;
+}
+
+.discount__p{
+    font-size: 2.8125rem;
+    font-weight: 400;
+    color: white;
+    background-color: #393939 ;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 4rem;
+    box-sizing: border-box;
+}
+
+.price{
+    color: #5bacc3;
+}
+
+.footer{
+    background-color:#fff0ed ;
+}
+
+.footer__heading{
+    font-size: 2.0625rem;
+}
+
+.footer__card{
+    display: inline-block;
+    position: relative;
+    background-color: none;
+    padding: 2.5rem;
+    margin: 1.25rem;
+    width:30%;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align:middle;
+}
+
+.social image{
+    display: inline-block;
+    width: 30%; 
+}
+

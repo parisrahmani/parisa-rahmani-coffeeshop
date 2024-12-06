@@ -1,0 +1,89 @@
+html {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2 {
+    font-size: 3.75em;
+    font-weight: 300;
+    margin: 0;
+    padding: 1.25rem 0;
+}
+
+h3 {
+    font-size: 2.0625rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+p {
+    font-size: 1.126rem;
+    font-weight: 400;
+    padding:0;
+    margin: 0;
+}
+
+ul{
+    font-size: 1.3125rem;
+    font-weight: 400;
+    list-style-type: none; 
+}
+
+.icon{  
+    width: 3.125rem;
+}
+
+
+.header{
+    background-color: #fff0ed;
+    background-size: cover;
+    background-position: center; 
+}
+
+.header .icon{
+    display: inline-block;
+}
+
+.header__title{
+    display: inline-block;
+    padding: .5rem 2rem 1rem 1rem;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.header__title a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__list{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+
+.header__list li{
+    display: inline-block;
+    padding: 0 2rem 0 0;
+    margin: 0;
+}
+
+.header__list a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__list a:hover{
+    color: #5bacc3;
+}
+
+.header__list--blue{
+    color: #5bacc3 !important;
+}
+

@@ -1,10 +1,7 @@
-body{
-    padding-left:5%;
-    background-color: #f7f7f7;
-}
+
 
 .header{
-    padding-bottom: 1.25rem;
+    padding: 1.25rem;
 }
 
 button{
@@ -29,7 +26,6 @@ button a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left:1.5rem;
 }
 
 .nitro-coffee__img{
@@ -57,7 +53,6 @@ button a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .card{
@@ -97,9 +92,6 @@ button a{
     padding: 0;
 }
 
-.card__description__text{
-    
-}
 
 .card__title{
     display: flex;

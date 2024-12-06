@@ -43,7 +43,7 @@ ul{
     background-position: center; 
 }
 
-.header .icon{
+.header__icon{
     display: inline-block;
 }
 
@@ -55,10 +55,6 @@ ul{
     font-weight: 300;
 }
 
-.header__title a{
-    text-decoration: none;
-    color: black;
-}
 
 .header__list{
     display: inline-block;

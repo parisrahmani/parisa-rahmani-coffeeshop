@@ -1,1 +1,90 @@
 /*# sourceMappingURL=menu.css.map */
+body{
+    padding-left:5%;
+    background-color: #f7f7f7;
+}
+
+.banner{
+    background-image: url(../assets/images/coffee-circle.jpg);
+    background-position: center ;
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.banner__title{
+    color: white;
+    background-color: #393939;
+    background-size: cover;
+    background-position: center ;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    padding: 1%;
+  }
+
+.banner__list{
+    list-style: none;
+    background-color: #393939;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 1.25em 0 ;
+  }
+
+.banner__list a{
+    color: white;
+    text-decoration: none;
+}
+
+.banner__list li{
+    display: inline;
+    font-size: 1.3125rem ;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+.banner__list li::before {
+    content: "|";
+    font-size: 1.5rem ;
+    font-weight: 1000;
+    margin-right: 1.2rem;
+    display: inline;
+    color: #5bacc3;
+  }
+
+.menu__hot-drinks{
+    display: block;
+    background-color: #fff0ed;
+    padding: 1rem;
+}
+
+.menu__cold-drinks{
+    display: block;
+    background-color: #f7f7f7;
+    padding: 1rem;
+}
+
+.menu__pastries{
+    display: block;
+    background-color: #fff0ed;
+    padding: 1rem;
+}
+
+.menu h2, .menu h3{
+    text-align: center;
+    padding: 1rem;
+}
+
+.menu__desc{
+    text-align: center;
+    padding: 0 30vw;
+}
+
+.price{
+    color: #5bacc3;
+    text-align: center;
+    padding: 1rem;
+}

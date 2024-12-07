@@ -9,48 +9,48 @@
     <link rel="stylesheet" href="./css/landing.css">
 </head>
 <body>
-    <header>
-        <nav class="header">
+    <header class="header">
+        <section class="header__logo">
             <a href="index.html"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Coffee bean logo" class="icon headr__icone"></a>
             <h2 class="header__title">nitro</h2>
+        </section>
+        <nav class="header__nav">
             <ul class="header__list">
                 <li><a href="index.html">ABOUT</a></li>
                 <li><a href="./pages/menu.html">MENU</a></li>
                 <li><a href="./pages/menu.html" class="header__list--blue" >SHOP NOW</a></li>
             </ul>
         </nav>
-        <section class="nitro-coffee">
-            <section class="nitro-coffee__block">
-                <div class="nitro-coffee__desc">
-                    <h1>Nitro Coffee</h1>
-                    <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
-                    </p>
-                    <button><a href="./pages/menu.html">SHOP NOW</button></a>
-                </div>
-            </section>
-            <section class="nitro-coffee__block">
-                <img src="./assets/images/coffeebeans-hero.png" alt="Coffee bag" class="nitro-coffee__img">
-            </section>
-        </section>
     </header>
+    <section class="nitro-coffee">
+        <div class="nitro-coffee__desc">
+            <h1>Nitro Coffee</h1>
+            <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
+            </p>
+            <button><a href="./pages/menu.html">SHOP NOW</button></a>
+        </div>
+        <section class="nitro-coffee__block">
+            <img src="./assets/images/coffeebeans-hero.png" alt="Coffee bag" class="nitro-coffee__img">
+        </section>
+    </section>
+    
     <main>
         <article class="products">
-            <h2 >Our Products</h2>
+            <h2 class="products__title" >Our Products</h2>
             <section class="products__detail">
                 <section class="card">
-                    <img src="./assets/images/coffeebeans.png" alt="Coffee Beans" class=""card__img/>
+                    <img src="./assets/images/coffeebeans.png" alt="Coffee Beans" class="card__img"/>
                     <div class= "card__description">
                         <div class="card__description__text" >
                             <h3 class="card__title">Coffee beans</h3>
                             <p class="card__detail">Pack of 3</p>
                         </div>
-                        
                         <p class="card__price"><strong>$19</strong></p>
                     </div>
                 </section>
 
                 <section class="card">
-                    <img src="./assets/images/coldbrew.png" alt="Cold Brew" class=""card__img/>
+                    <img src="./assets/images/coldbrew.png" alt="Cold Brew" class="card__img"/>
                     <div class= "card__description">
                         <div class="card__description__text" >
                             <h3 class="card__title">Cold Brew</h3>
@@ -62,7 +62,7 @@
                 </section>
 
                 <section class="card">
-                    <img src="./assets/images/inhousebrew.png" alt="In-house Brew" class=""card__img/>
+                    <img src="./assets/images/inhousebrew.png" alt="In-house Brew" class="card__img/"">
                     <div class= "card__description">
                         <div class="card__description__text" >
                             <h3 class="card__title">In-house Brew</h3>
@@ -75,9 +75,26 @@
             <br>
             <button><a href="./pages/menu.html">VIEW ALL</button></a>
         </article>
+        <article Class="we">
+            <section class="we__text">
+                <h2 class="we__header">We're Different</h2>
+                <p class="we__description"> We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                <div class="we__icon">
+                    <img src="./assets/logos/planting.svg" alt="Planting" class="icon">
+                    <img src="./assets/logos/coffee-beans.svg" alt="Coffee Beans" class="icon">
+                    <img src="./assets/logos/coffee-cup.svg" alt="Coffee Cup" class="icon">
+                </div>
+                <button class=" button"> LEARN MORE</button>
+            </section>
+            <section class="we__image">
+                <img src="./assets/images/tiltedcan.png" alt="Tilted Can" class="we__image--can">
+            </section>
+        </article> 
         <section class="discount">
             <p class="discount__p">Get 20% off your first order with code: <b>FirstNitro</b></p>
-        </section>       
+        </section> 
+        
+    </article>    
     </main>
 
     <footer class="footer">

@@ -22,26 +22,18 @@ button a{
 
 .nitro-coffee{
     background-color: #fff0ed;
-    padding: 1.25rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .nitro-coffee__img{
-    max-width: 100%;
-    height: auto;
+    padding: 1.25rem;
 }
 
 .nitro-coffee__desc{
-    text-align: left;
     padding: 0 5rem 0 0;
-
-}
-
-.nitro-coffee__block{
-    width: 50%;
-    margin: 1.2rem;
+    width: 35%
 }
 
 .products{
@@ -51,7 +43,7 @@ button a{
 
 .products__detail{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -73,13 +65,9 @@ button a{
     vertical-align:middle;  
 }
 
-/*.card__img{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 1.25rem;
-    position: absolute;
-}*/
+.card__img{
+    height: 280px;
+}
 
 .card__description{
     display: flex;
@@ -129,6 +117,42 @@ button a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.we{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.we__text{
+    width: 35%
+}
+
+.we__icon{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.we__image{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.we__image--can{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/images/coldbrewbackground.png);
+    background-size:cover;
+    height: 280px;
+    width: auto;
+    padding: 60px 120px;
+
+
 }
 
 .discount{

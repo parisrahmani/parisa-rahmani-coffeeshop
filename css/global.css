@@ -41,23 +41,29 @@ ul{
     background-color: #fff0ed;
     background-size: cover;
     background-position: center; 
-}
-
-.header__icon{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__title{
-    display: inline-block;
-    padding: .5rem 2rem 1rem 1rem;
+    padding: 0 2rem 1rem 1rem;
     margin: 0;
     font-size: 3rem;
     font-weight: 300;
 }
-
+.header__logo{
+    display: flex;
+    justify-content: center;
+}
+.header__nav{
+    
+    justify-content: space-between;
+}
 
 .header__list{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     padding: 0;
     margin: 0;
     font-size: 1.3125rem;
@@ -65,7 +71,6 @@ ul{
 }
 
 .header__list li{
-    display: inline-block;
     padding: 0 2rem 0 0;
     margin: 0;
 }

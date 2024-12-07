@@ -7,9 +7,10 @@ body{
 .banner{
     background-image: url(../assets/images/coffee-circle.jpg);
     background-position: center ;
-    background-size: cover;
+    background-size: cover;;
     display: flex; 
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50vh;
 }
@@ -20,10 +21,11 @@ body{
     background-size: cover;
     background-position: center ;
     width: 20vw;
-    height: 10vh;
+    height: auto;
     text-align: center;
-    padding: 1%;
+    padding: 1.25rem;
   }
+
 
 .banner__list{
     list-style: none;
@@ -31,7 +33,8 @@ body{
     box-sizing: border-box;
     width: 100%;
     text-align: center;
-    padding: 1.25em 0 ;
+    padding: 1rem 0 ;
+    margin: 0;
   }
 
 .banner__list a{

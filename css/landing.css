@@ -132,8 +132,8 @@ button a{
 .we__icon{
     display: flex;
     justify-content: space-between;
-    
-    
+    align-items: center;
+    padding-top: 1.25rem;
 }
 
 .we__image{
